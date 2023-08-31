@@ -1,1 +1,14 @@
-zczczx
+// datatyper(typer av variabelverdi)
+string(tekststreng)
+number(tall)
+boolean(true/false)
+object(array,dato)
+NULL(ingenting)
+undefined(ikke bestemt)
+
+// 
+// const: Konstant verdi, scopebestemmer tilgjenglighet
+// var: mulig å endre 
+// scope: "Tilgjengelig område". Avgrensninger i kodeblokker, eksemplevis
+// Globale variabler: Alltid tilgjengelig: window og document
+
