@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="melding"></p>
+    // mangla å bli pakka opp på begge ender med en >
+    <script>
+    // mangla en anførselstegn på enden av Marius
+    const user_name = "Marius"
+    // const er skrevet feil på linje 15. 
+    const user_birthyear = 1983
+    // linje 17 har to feil. det står 2022 istedenfor 2023. Itillegg så mister vi variablen user_birthyear ved å ha en =. 
+    const age = 2023 - user_birthyear  
+    // Variablen trenger en + foran og bak stringen dersom variablen er notert bak stringen.
+    const utskrift = "Hei" + user_name + "(" + age + "år)";
+    document.getElementById("melding")innerHTML = utskrift;
+    </script>
